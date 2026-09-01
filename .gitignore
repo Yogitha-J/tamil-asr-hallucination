@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets/config
+.env
+.env.*
+!.env.example
+
+# Raw / large audio and metadata
+*.wav
+*.flac
+*.mp3
+*.jsonl
+
+# Logs and temporary outputs
+*.log
+*.tmp
+
+# Private/internal annotation files
+*_INTERNAL.csv
+human_validation_master_key*.csv
+*_evaluated.xlsx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
